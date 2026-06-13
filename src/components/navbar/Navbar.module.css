@@ -1,0 +1,68 @@
+.navbar {
+  display: flex;
+  /* Cambiado de space-between a center para agrupar todo al medio */
+  justify-content: center; 
+  align-items: center;
+  background: #1f2937;
+  padding: 1rem 2rem;
+  color: white;
+  position: relative; /* Asegura el correcto posicionamiento del menú móvil */
+}
+
+.links {
+  display: flex;
+  gap: 1rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.links a {
+  text-decoration: none;
+  color: white;
+  padding: 0.5rem;
+}
+
+.links a:hover {
+  background: #374151;
+  border-radius: 5px;
+}
+
+.hamburger {
+  display: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  background: none;
+  border: none;
+  color: white;
+}
+
+/* Ajustes Responsives */
+@media (max-width: 768px) {
+  .navbar {
+    /* En móviles, si quieres que la hamburguesa quede a la derecha */
+    justify-content: flex-end; 
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  .links {
+    display: none;
+  }
+
+  .active {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 100%; /* Se despliega justo abajo del navbar */
+    left: 0;
+    right: 0;
+    background: #1f2937;
+    padding: 1rem;
+    align-items: center; /* Centra los elementos también dentro del menú móvil */
+    gap: 1rem;
+    z-index: 10;
+  }
+}

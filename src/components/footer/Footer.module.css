@@ -1,0 +1,18 @@
+.footer {
+  background: #111827;
+  color: white;
+  text-align: center;
+  padding: 2rem;
+}
+
+.redes {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.redes a {
+  color: white;
+  text-decoration: none;
+}
