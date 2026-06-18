@@ -65,7 +65,7 @@ function About() {
       {/* Mis Herramientas */}
       <div className={styles["contenedorComplemento"]}>
         <div className={styles["contenedor-titulo-secundario"]}>
-          <h3 className={styles["titulo-secundario"]}>Mis herramientas</h3>
+          <h3 className={styles["titulo-secundario"]}> Mis herramientas</h3>
         </div>
         
         {/* Contenedor flex para que se centren de manera fluida */}

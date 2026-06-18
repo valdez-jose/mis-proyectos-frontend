@@ -11,14 +11,4 @@
   background-color: rgba(17, 8, 8, 0.5);
 }
 
-.overlay{
-  height:100%;
-  display:flex;
-  justify-content:center;
-  align-items:center;
-}
 
-.overlay h2{
-  color:white;
-  font-size:2rem;
-}

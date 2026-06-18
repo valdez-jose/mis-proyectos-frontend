@@ -6,17 +6,13 @@ function Navbar() {
 
   const proyectos = [
     {
-      nombre: "Proyecto React",
+      nombre: "Sobre mi",
       link: "https://proyecto-react.vercel.app",
     },
     {
-      nombre: "Proyecto Angular",
+      nombre: "Portafolio principal",
       link: "https://proyecto-angular.vercel.app",
-    },
-    {
-      nombre: "Proyecto TS",
-      link: "https://proyecto-ts.vercel.app",
-    },
+    }
   ];
 
   return (
@@ -35,8 +31,7 @@ function Navbar() {
             <a
               href={proyecto.link}
               target="_blank"
-              rel="noreferrer"
-            >
+              rel="noreferrer">
               {proyecto.nombre}
             </a>
           </li>
