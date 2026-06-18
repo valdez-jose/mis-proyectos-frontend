@@ -7,11 +7,11 @@ function Navbar() {
   const proyectos = [
     {
       nombre: "Sobre mi",
-      link: "https://proyecto-react.vercel.app",
+      link: "https://sobre-mi-mu.vercel.app/",
     },
     {
-      nombre: "Portafolio principal",
-      link: "https://proyecto-angular.vercel.app",
+      nombre: "Mi Portafolio",
+      link: "https://nuevo-portafolio-angular.vercel.app/",
     }
   ];
 
