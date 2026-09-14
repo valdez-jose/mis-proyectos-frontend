@@ -39,7 +39,8 @@ function About() {
         <div className={styles.cardProyecto}>
           <h3>Proyecto: Bicicleteria</h3>
           <p>
-            Desarrollé Bicicletería, una solución web para la gestión de productos y servicios de ciclismo utilizando Angular. Implementé una estructura modular con rutas hijas, consumo de servicios para el manejo de datos y formularios reactivos, garantizando una experiencia de usuario fluida y un código altamente mantenible.
+            Desarrollé Bicicletería, una solución web para la gestión de productos y
+             servicios de ciclismo utilizando Angular. Implementé una estructura modular con rutas hijas, consumo de servicios para el manejo de datos y formularios reactivos, garantizando una experiencia de usuario fluida y un código altamente mantenible.
           </p>
           <div className={styles["contenedor-enlace"]}>
             <a href="https://bicicleteria-angular.vercel.app/" target="_blank" rel="noreferrer" className={styles["enlace-proyecto"]}>
@@ -60,6 +61,23 @@ function About() {
             </a>
           </div>
         </div>
+
+         {/* Proyecto: Peluqueria caninas */}
+        <div className={styles.cardProyecto}>
+          <h3>Proyecto: Peluqueria caninas</h3>
+          <p>
+            Peluquería Canina es una aplicación web para la gestión de servicios de peluquería canina, 
+            desarrollada con NestJS y TypeScript. La aplicación permite administrar clientes, mascotas, 
+            servicios y turnos, facilitando la organización de la información y la gestión de citas. Cuenta con una API REST conectada a PostgreSQL mediante TypeORM, 
+            ofreciendo una estructura organizada y eficiente para el manejo de datos.
+          </p>
+          <div className={styles["contenedor-enlace"]}>
+            <a href="https://peluqueria-caninas.vercel.app/" target="_blank" rel="noreferrer" className={styles["enlace-proyecto"]}>
+              Ver proyecto
+            </a>
+          </div> 
+        </div>
+
       </div>
 
       {/* Mis Herramientas */}
