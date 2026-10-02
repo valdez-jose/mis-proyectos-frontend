@@ -22,9 +22,9 @@ function About() {
           </div>
         </div> 
 
-        {/* Proyecto: Vevero */}
+        {/* Proyecto: Vivero */}
         <div className={styles.cardProyecto}>
-          <h3>Proyecto: Vevero</h3>
+          <h3>Proyecto: Vivero</h3>
           <p>
             Vivero El Paso es una aplicación web moderna desarrollada con React y TypeScript, diseñada para la visualización, filtrado y gestión de un catálogo digital de plantas y productos de jardinería. Gracias al uso de TypeScript, el proyecto cuenta con una arquitectura robusta, un tipado seguro para el inventario y una experiencia de usuario fluida y reactiva.
           </p>
@@ -73,6 +73,21 @@ function About() {
           </p>
           <div className={styles["contenedor-enlace"]}>
             <a href="https://peluqueria-caninas.vercel.app/" target="_blank" rel="noreferrer" className={styles["enlace-proyecto"]}>
+              Ver proyecto
+            </a>
+          </div> 
+        </div>
+
+        {/* Proyecto: Vinoteca */}
+        <div className={styles.cardProyecto}>
+          <h3>Proyecto: Vinoteca</h3>
+          <p>
+           Vinoteca es una aplicación web para la gestión y visualización de productos de una vinoteca,
+            desarrollada con React, TypeScript y Vite. La aplicación permite consultar y administrar información de vinos como nombre, cepa, año, precio, stock, descripción e imagen. El frontend consume una API REST desarrollada con FastAPI, 
+           permitiendo obtener y gestionar los datos de manera dinámica desde la interfaz.
+          </p>
+          <div className={styles["contenedor-enlace"]}>
+            <a href="https://vinoteca-react.vercel.app/" target="_blank" rel="noreferrer" className={styles["enlace-proyecto"]}>
               Ver proyecto
             </a>
           </div> 
