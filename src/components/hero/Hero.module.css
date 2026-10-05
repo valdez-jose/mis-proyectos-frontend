@@ -1,14 +1,33 @@
 
-.hero{
-  height:300px;
+.hero {
+  width: 100%;
+  /* Usamos una mezcla de min-height y unidades de vista (vh) para que se adapte mejor */
+  min-height: 340px;
+  height: 35vh; 
 
-  background-image:url(
-    "https://media.geeksforgeeks.org/wp-content/uploads/20240703165023/Frontend-Development-(1).webp"
-  );
+  background-image: linear-gradient(
+      rgba(17, 8, 8, 0.3), 
+      rgba(17, 8, 8, 0.3)
+    ),
+    url("https://media.geeksforgeeks.org/wp-content/uploads/20240703165023/Frontend-Development-(1).webp");
+  
   background-repeat: no-repeat;
-  background-size:cover;
-  background-position:center;
-  background-color: rgba(17, 8, 8, 0.5);
+  background-size: cover;
+  background-position: center;
 }
 
+/* --- RESPONSIVIDAD PARA PANTALLAS MÁS PEQUEÑAS --- */
 
+@media (max-width: 768px) {
+  .hero {
+    min-height: 200px;
+    height: 28vh;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero {
+    min-height: 150px;
+    height: 22vh;
+  }
+}
