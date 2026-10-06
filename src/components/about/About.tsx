@@ -29,7 +29,7 @@ function About() {
             Vivero El Paso es una aplicación web moderna desarrollada con React y TypeScript, diseñada para la visualización, filtrado y gestión de un catálogo digital de plantas y productos de jardinería. Gracias al uso de TypeScript, el proyecto cuenta con una arquitectura robusta, un tipado seguro para el inventario y una experiencia de usuario fluida y reactiva.
           </p>
           <div className={styles["contenedor-enlace"]}>
-            <a href="https://valdez-jose.github.io/vivero-el-paso/" target="_blank" rel="noreferrer" className={styles["enlace-proyecto"]}>
+            <a href="https://vivero-el-paso.vercel.app/" target="_blank" rel="noreferrer" className={styles["enlace-proyecto"]}>
               Ver proyecto
             </a>
           </div>
