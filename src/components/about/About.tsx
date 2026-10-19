@@ -16,7 +16,7 @@ function About() {
             Desarrollé Turismo en San Luis, una plataforma web interactiva construida con React, TypeScript y React Router. El proyecto optimiza la navegación entre guías turísticas mediante un enrutamiento dinámico y seguro, aprovechando el tipado fuerte de TypeScript para un código robusto y mantenible.
           </p>
           <div className={styles["contenedor-enlace"]}>
-            <a href="https://valdez-jose.github.io/galeria-sanluis/" target="_blank" rel="noreferrer" className={styles["enlace-proyecto"]}>
+            <a href="https://galeria-sanluis.vercel.app/" target="_blank" rel="noreferrer" className={styles["enlace-proyecto"]}>
               Ver proyecto
             </a>
           </div>
