@@ -93,7 +93,22 @@ function About() {
           </div> 
         </div>
 
+         {/* Proyecto: obra divina */}
+        <div className={styles.cardProyecto}>
+          <h3>Proyecto: La obra divina de Dios</h3>
+          <p>
+           Obra Divina es una aplicación web interactiva desarrollada con Angular y TypeScript, orientada a la divulgación y reflexión sobre momentos clave de la historia sagrada. La plataforma presenta de forma visual y organizada los temas centrales del relato bíblico,
+           abarcando la creación, el Edén, la caída y la venida de nuestro Señor Jesucristo.
+          </p>
+          <div className={styles["contenedor-enlace"]}>
+            <a href="https://la-obra-divina-l9ox.vercel.app/" target="_blank" rel="noreferrer" className={styles["enlace-proyecto"]}>
+              Ver proyecto
+            </a>
+          </div> 
+        </div>
+
       </div>
+      
 
       {/* Mis Herramientas */}
       <div className={styles["contenedorComplemento"]}>
